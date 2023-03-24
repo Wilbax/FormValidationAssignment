@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none!important;
+    color:rgba(211, 200, 200, 0.85)
+}
+/* header section */
+#header{
+    background-color: #1B262C;
+    width: 100%;
+}
+
+#brand{
+    position: relative;
+    height: 130px;
+}
+#logoDiv{
+    display: inline-block;
+}
+#logo{
+    height: 140px;
+    position: absolute;
+    left:20%;
+    bottom: 3%
+}
+#brandName{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left:35%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: rgba(211, 200, 200, 0.85);
+}
+#navBar{
+    background-color: #1B262C;
+    padding-left: 35%;
+    height:60px
+}
+.navItem{
+    display: inline-block;
+    background-color: #1B262C;
+    margin: 4px;
+    border: 1px solid #6e8291;
+    height: 40px;
+    width:200px;
+
+}
+.navItemText{
+    position: relative;
+    left: 30%;
+    top:20%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(211, 200, 200, 0.85)!important;
+}
+
+/* Content */
+#content{
+    background-color: #c8daea;
+    height: 300px;
+    position: relative;
+
+}
+#visionStatement{
+    background-color: rgba(241, 243, 248, 0.68);
+    margin: 50px 20px 50px 20px;
+    position: absolute;
+    width: 90%;
+    height: 180px;
+    left: 2%;
+    font-size: 50px;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Alkatra', cursive;
+    color: #9a9a9f;
+    border: #1B262C solid 1px;
+}
+#intro{
+    background-image: url(../img/image1.jpg);
+    height: 500px;
+}
