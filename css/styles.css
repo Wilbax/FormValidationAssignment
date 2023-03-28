@@ -19,34 +19,36 @@ a{
     display: inline-block;
 }
 #logo{
-    height: 140px;
+    height: 168px;
     position: absolute;
-    left:20%;
-    bottom: 3%
+    left: 2%;
+    bottom: 3%;
+    top: 13%;
 }
+
 #brandName{
     display: inline-block;
     position: absolute;
-    top: 30%;
-    left:35%;
+    top: 48%;
+    left: 15%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
+    font-size: 46px;
     color: rgba(211, 200, 200, 0.85);
 }
 #navBar{
     background-color: #1B262C;
-    padding-left: 35%;
-    height:60px
+    padding-left: 49%;
+    height: 66px;
 }
 .navItem{
     display: inline-block;
     background-color: #1B262C;
     margin: 4px;
     border: 1px solid #6e8291;
-    height: 40px;
-    width:200px;
-
+    height: 38px;
+    width: 164px;
 }
+
 .navItemText{
     position: relative;
     left: 30%;
