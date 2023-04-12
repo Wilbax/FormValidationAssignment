@@ -1,10 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles2.css">
+
+    <!--    Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:ital@1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
+<div id="header">
+    <div id="brand">
+        <div id="logoDiv">
+            <img src="img/logoForCollegue.png" alt="logo" id="logo">
+        </div>
+        <div id="brandName">Cosmos Education Institute</div>
+    </div>
+    <div id="navBar">
+        <div class="navItem"><div class="navItemText"><a href="home.html">Home</a></div></div>
+        <div class="navItem"><div class="navItemText" style="left: 18%"><a href="registrationForm.html">Registration</a></div></div>
+        <div class="navItem"><div class="navItemText"><a href="loginForm.html">Login</a></div></div>
+        <div class="navItem"><div class="navItemText"><a href="logout.html">Logout</a></div></div>
+    </div>
+</div>
+
+
+<div id="content">
+    <idv id="formName" style="left: 45%"> Login</idv>
+    <div id="regForm">
+        <form name="logForm" onsubmit="return logValidForm()">
+            <div class="formElement">
+                <label>User Type:</label>
+                <select name="country">
+                    <option value="none"  selected disabled hidden>(Please select user type)</option>
+                    <option value="sl">Super Admin</option>
+                    <option value="in">Admin</option>
+                    <option value="lon">local user</option>
+                </select>
+                <span id="userTypeWarning"></span>
+            </div>
+            <div class="formElement">
+                <label>User Id:</label>
+                <input type="text" class="userId" name="uId">
+                <span id=uIdWarning"></span>
+            </div>
+            <div class="formElement">
+                <label >Password:</label>
+                <input type="password" name="pswd">
+                <span id="passWarning"></span>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <div class="formElement" id="submitButton" style="width: 100px;position:relative;left:30%">
+                <input type="submit" value="submit">
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div id="footer"></div>
+<script src="./js/loginFormValid.js"></script>
 </body>
 </html>

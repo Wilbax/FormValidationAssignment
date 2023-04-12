@@ -65,9 +65,30 @@ textarea{
 }
 #submitButton{
     position: relative;
-    top:50%
+    top:50%;
 }
 
 .userId{
     width: 220px!important;
+}
+
+#psWarning{
+    position: relative;
+    left: 40%;
+}
+#sWarning{
+    position: relative;
+    left: 40%;
+}
+#sexWarning{
+    position: relative;
+    left: 30%;
+}
+#langWarning{
+    position: relative;
+    left:27%;
+}
+#idWarning{
+    position: relative;
+    left: 40%;
 }
